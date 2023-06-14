@@ -2,7 +2,7 @@ function App() {
   return (
     <>
       <Header />
-      <World />
+      <Footer />
     </>
   );
 }
@@ -17,7 +17,7 @@ function Header() {
   );
 }
 
-function World() {
+function Footer() {
   return (
     <>
       <div className="bg-success-subtle">
