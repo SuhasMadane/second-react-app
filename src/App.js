@@ -1,7 +1,6 @@
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
       <Header />
       <World />
     </>
@@ -10,9 +9,11 @@ function App() {
 
 function Header() {
   return (
-    <>
-      <h5>Good Morning</h5>
-    </>
+    <div className="row bg-warning text-light p-3 fs-3 justify-content-evenly">
+      <div className="col">Home</div>
+      <div className="col">Project</div>
+      <div className="col">About us</div>
+    </div>
   );
 }
 
