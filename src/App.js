@@ -2,7 +2,8 @@ function App() {
   return (
     <>
       <h1>Hello World</h1>
-      <header />
+      <Header />
+      <World />
     </>
   );
 }
@@ -10,7 +11,15 @@ function App() {
 function Header() {
   return (
     <>
-      <h5>Header</h5>
+      <h5>Good Morning</h5>
+    </>
+  );
+}
+
+function World() {
+  return (
+    <>
+      <span style={{ backgroundColor: "skyblue", color: "orange" }}>Suhas</span>
     </>
   );
 }
